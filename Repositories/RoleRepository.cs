@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HelloApi.Repositories
 {
-    public class RoleRepository(AppDbContext context) : IRoleRepository
+    public class RoleRepository(AppDbContext context)// : IRoleRepository
     {
         private readonly AppDbContext _context = context;
 
@@ -16,9 +16,9 @@ namespace HelloApi.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<Role?> GetByNameAsync(string name)
-        {
-            return await _context.Roles.FirstOrDefaultAsync(r => r.Name == name);
-        }
+        //public async Task<Role?> GetByNameAsync(string name)
+        //{
+        //    //return await _context.Roles.FirstOrDefaultAsync(r => r.Name == name);
+        //}
     }
 }
