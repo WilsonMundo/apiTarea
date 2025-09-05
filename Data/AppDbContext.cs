@@ -13,6 +13,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Invoice> Invoices => Set<Invoice>();
     public DbSet<Detail> Details => Set<Detail>();
     public DbSet<Order> Orders => Set<Order>();
+    public DbSet<Item> Item => Set<Item>();
     public DbSet<OrderDetail> OrderDetails => Set<OrderDetail>();
     //public DbSet<User> Users { get; set; }
     //public DbSet<Role> Roles { get; set; }
