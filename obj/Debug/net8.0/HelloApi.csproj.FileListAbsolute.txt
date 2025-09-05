@@ -340,3 +340,4 @@ D:\Universidad\DesarrolloWeb\desawebback\obj\Debug\net8.0\refint\HelloApi.dll
 D:\Universidad\DesarrolloWeb\desawebback\obj\Debug\net8.0\HelloApi.pdb
 D:\Universidad\DesarrolloWeb\desawebback\obj\Debug\net8.0\HelloApi.genruntimeconfig.cache
 D:\Universidad\DesarrolloWeb\desawebback\obj\Debug\net8.0\ref\HelloApi.dll
+D:\Universidad\DesarrolloWeb\desawebback\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
